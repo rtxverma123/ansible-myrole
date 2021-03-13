@@ -1,0 +1,9 @@
+- name: deploy a web app
+  hosts: demo
+  connection: ssh
+  become: yes
+  user: ansible
+  roles: 
+    - python
+    - mysql_db
+    - flask_webserver
