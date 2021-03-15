@@ -1,0 +1,3 @@
+[demo]
+18.191.205.85 ansible_user=ansible
+18.216.48.144 ansible_user=ansible
